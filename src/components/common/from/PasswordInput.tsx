@@ -17,8 +17,8 @@ const PasswordInput = () => {
             <button onClick={onShow} type="button" className="absolute top-[50%] translate-y-[-50%] right-4">
                 {
                     isShow 
-                    ? <Image src="/images/eye-open.svg" alt="eye" width={20} height={20} />
-                    : <Image src="/images/eye-close.svg" alt="eye" width={20} height={20} />
+                    ? <Image src="/images/eye-open.svg" alt="eye opne" width={20} height={20} />
+                    : <Image src="/images/eye-close.svg" alt="eye close" width={20} height={20} />
                 }
             </button>
         </div>
