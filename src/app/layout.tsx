@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 import Header from "@/components/common/header/Header";
-
 import "@/styles/globals.css";
+import App from "@/components/App/App";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="ru" className="h-full">
       <body className={`bg-white ${inter.className}`}>
-        <main>
+        <App>
           <Header />
           {children}
-        </main>
+        </App>
       </body>
     </html>
   );
