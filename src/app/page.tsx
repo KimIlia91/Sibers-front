@@ -1,11 +1,15 @@
-import Form from "@/components/common/from/FormLogin";
-import Input from "@/components/common/from/Input";
-import PasswordInput from "@/components/common/from/PasswordInput";
+import ProjectTable from "@/components/project/ProjectTable";
 
 export default function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <section className="">
+      <div className="flex flex-col items-center justify-center gap-9">
+        <h1 className="font-bold text-2xl">
+          Проекты
+        </h1>
+        <ProjectTable />
+      </div>
+      
+    </section>
   );
 }
